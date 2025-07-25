@@ -3,40 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Portafolio de Martha</title>
-</head>
-<body>
-  <h1>¡Hola, soy Martha! 👩‍💻</h1>
-  <p>Este es mi portafolio de ciberseguridad y proyectos sociales.</p>
-  <img src="martha.jpg" alt="Foto de Martha" width="250">
-</body>
-</html>
-
   <style>
     /* 🎨 Paleta de colores */
     :root {
-      --azul-rey: #0D47A1;
-      --fondo-claro: #F5F5F5;
-      --dorado: #FFD700;
-      --texto-oscuro: #212121;
-    }
-  
-</style>
-    body { 
-      
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      background-color: var(--fondo-claro);
-      color: var(--texto-oscuro);
-    }
+  --azul-rey: #0D47A1;
+  --fondo-claro: #F5F5F5;
+  --dorado: #FFD700;
+  --texto-oscuro: #212121;
+}
 
-    header {
-      background: var(--azul-rey);
-      color: white;
-      padding: 1em;
-      text-align: center;
-    }
+/* ✨ Efecto de aparición para el encabezado */
+header h1 {
+  animation: aparecer 2s ease-in-out;
+}
 
-    nav {
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🎨 Transición para los enlaces del menú */
+nav a {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--azul-rey);
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+/* ...y el resto de tu CSS sigue igual */
+
+
       background: var(--dorado);
       text-align: center;
       padding: 0.5em;
@@ -61,8 +67,31 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 10px;
     }
-      
-       
+
+    .proyecto {
+      background-color: #f5f5f5;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .proyecto h3 {
+      margin-top: 0;
+    }
+
+    .proyecto a {
+      display: inline-block;
+      padding: 8px 12px;
+      background-color: #0066cc;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .proyecto a:hover {
+      background-color: #004999;
+    }
+
     footer {
       text-align: center;
       font-size: 0.9em;
@@ -72,105 +101,52 @@
       color: #555;
     }
   </style>
-   <style>
-  .proyecto {
-    background-color: #f5f5f5;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-  }
-
-  .proyecto h3 {
-    margin-top: 0;
-  }
-
-  .proyecto a {
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: #0066cc;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-
-  .proyecto a:hover {
-    background-color: #004999;
-  }
 </head>
-<body> 
-
+<body>
 
   <header>
     <h1>Martha Fontalvo</h1>
     <p>Transición a la ciberseguridad | Tecnología con propósito social</p>
   </header>
-  
-    
+
   <nav>
-    <a href="#sobremi">Sobre mí</a>
+    <a href="#sobre-mi">Sobre mí</a>
     <a href="#proyectos">Proyectos</a>
     <a href="#habilidades">Habilidades</a>
     <a href="#contacto">Contacto</a>
   </nav>
 
-    
-
+  <div class="container">
     <!-- 👩‍💻 Sección Sobre mí -->
-      <section id="sobre-mi">
-  <h2>Sobre mí</h2>
-  <p>
-    Soy Martha, aprendiz comprometida de ciberseguridad, con el propósito de construir herramientas tecnológicas que generen impacto social real. Me apasiona transformar la complejidad técnica en conocimiento accesible, utilizando proyectos como <strong>EmpleoJusto-AI</strong> y <strong>EcoCifrado</strong> para democratizar oportunidades y concientizar sobre prácticas sostenibles.
-  </p>
-  <p>
-    Actualmente estoy desarrollando entornos virtuales para analizar tráfico de red con <strong>Suricata</strong>, creando reglas personalizadas, solucionando conflictos de configuración, y documentando cada aprendizaje como parte de mi portafolio profesional.
-  </p>
-  <p>
-    Mis valores son mi brújula: la empatía 🤝, la inclusión 🌍 y el aprendizaje colaborativo 📘 me inspiran a seguir creciendo y compartiendo lo que sé. Creo firmemente que la tecnología puede educar, abrir puertas y derribar barreras.
-  </p>
-  <p>
-    Cuando no estoy entre comandos ni configuraciones, disfruto resolviendo acertijos lógicos 🧠 y pensando en cómo convertir cada reto técnico en una oportunidad de enseñanza. También uso herramientas como <strong>Microsoft Clarity</strong> para mejorar la accesibilidad y experiencia de usuario en mis proyectos.
-  </p>
-</section>
-
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>...tu presentación aquí...</p>
+      <img src="martha.jpg" alt="Foto de Martha" width="250">
+    </section>
 
     <!-- 💡 Sección Proyectos -->
     <section id="proyectos">
-  <h2>Proyectos destacados</h2>
-
-  <div class="proyecto">
-    <h3>EmpleoJusto-AI</h3>
-    <p>Plataforma en desarrollo para redefinir el acceso al empleo con transparencia, empatía y evaluación por habilidades.</p>
-    <a href="https://github.com/MARTHA-1975/EmpleoJusto-AI" target="_blank">Ver en GitHub</a>
-  </div>
-
-  <div class="proyecto">
-    <h3>EcoCifrado</h3>
-    <p>Iniciativa educativa sobre ciberseguridad sostenible y el impacto ambiental de la tecnología.</p>
-    <a href="https://github.com/MARTHA-1975/EcoCifrado" target="_blank">Explorar proyecto</a>
-  </div>
-
-  <div class="proyecto">
-  <h3>Verificador de Contraseñas</h3>
-  <p>Aplicación en Python y Tkinter que evalúa la fortaleza de contraseñas para promover prácticas seguras.</p>
-  <a href="https://github.com/MARTHA-1975/verificador.py/tree/main" target="_blank">Probar y ver código</a>
-</div>
-
-</section>
-
+      <h2>Proyectos destacados</h2>
+      <!-- Aquí tus proyectos -->
+    </section>
 
     <!-- 🧠 Sección Habilidades -->
-    <h2 id="habilidades">🧠 Habilidades técnicas</h2>
-    <ul>
-      <li>VirtualBox + Ubuntu: entornos de análisis y simulación</li>
-      <li>Suricata + Nmap: reglas personalizadas y detección de tráfico</li>
-      <li>Python + Tkinter: desarrollo de apps educativas</li>
-      <li>Microsoft Clarity: análisis del comportamiento de usuario</li>
-    </ul>
+    <section id="habilidades">
+      <h2>🧠 Habilidades técnicas</h2>
+      <ul>
+        <li>VirtualBox + Ubuntu: entornos de análisis y simulación</li>
+        <li>Suricata + Nmap: reglas personalizadas y detección de tráfico</li>
+        <li>Python + Tkinter: desarrollo de apps educativas</li>
+        <li>Microsoft Clarity: análisis del comportamiento de usuario</li>
+      </ul>
+    </section>
 
     <!-- 📨 Sección Contacto -->
-    <h2 id="contacto">📨 Contacto</h2>
-    <p>Email: fontalvomartha24@gmail.com<br>
-       LinkedIn: <a href="#">linkedin.com/in/martha-fontalvo</a></p>
+    <section id="contacto">
+      <h2>📨 Contacto</h2>
+      <p>Email: fontalvomartha24@gmail.com<br>
+         LinkedIn: <a href="#">linkedin.com/in/martha-fontalvo</a></p>
+    </section>
   </div>
 
   <footer>
@@ -179,6 +155,3 @@
 
 </body>
 </html>
-
-
-
