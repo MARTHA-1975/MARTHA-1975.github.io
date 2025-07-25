@@ -1,65 +1,52 @@
 <!DOCTYPE html>
-<img src="assets/martha.png" alt="Foto de Martha Fontalvo" class="foto-perfil">
-
-.foto-perfil {
-  width: 150px;
-  border-radius: 50%;
-  border: 3px solid #0D47A1; /* azul rey */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  display: block;
-  margin: 0 auto 1em;
-}
-
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <title>Martha Fontalvo - Portafolio</title>
   <meta name="description" content="Portafolio de Martha Fontalvo - proyectos de ciberseguridad y tecnología con impacto social">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <style>
+    /* 🎨 Paleta de colores */
     :root {
-  --azul-rey: #0D47A1;
-  --fondo-claro: #F5F5F5;
-  --dorado: #FFD700;
-  --texto-oscuro: #212121;
-}
+      --azul-rey: #0D47A1;
+      --fondo-claro: #F5F5F5;
+      --dorado: #FFD700;
+      --texto-oscuro: #212121;
+    }
 
+    /* 🎯 Estilos generales */
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background: #fff8f0;
-      color: #2c3e50;
+      background-color: var(--fondo-claro);
+      color: var(--texto-oscuro);
     }
-   header {
-  background: var(--azul-rey);  /* antes era #e67e22 */
-  color: white;
-  padding: 1em;
-  text-align: center;
-}
 
-nav {
-  background: var(--dorado);  /* antes era #f39c12 */
-  text-align: center;
-  padding: 0.5em;
-}
-
-body {
-  background-color: var(--fondo-claro);
-  color: var(--texto-oscuro);
-  font-family: 'Segoe UI', sans-serif;
-}
+    header {
+      background: var(--azul-rey);
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
 
     nav {
-      background: #f39c12;
+      background: var(--dorado);
       text-align: center;
       padding: 0.5em;
     }
+
     nav a {
       margin: 0 1em;
       color: white;
       text-decoration: none;
       font-weight: bold;
     }
+
+    nav a:hover {
+      color: var(--azul-rey);
+    }
+
     .container {
       max-width: 900px;
       margin: 2em auto;
@@ -68,12 +55,17 @@ body {
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 10px;
     }
-    img.profile {
+
+    /* 📸 Imagen de perfil */
+    .foto-perfil {
       width: 150px;
       border-radius: 50%;
+      border: 3px solid var(--azul-rey);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       display: block;
       margin: 0 auto 1em;
     }
+
     footer {
       text-align: center;
       font-size: 0.9em;
@@ -86,42 +78,18 @@ body {
 </head>
 <body>
 
-<header>
-  <h1>Martha Fontalvo</h1>
-  <p>Transición a la ciberseguridad | Tecnología con propósito social</p>
-</header>
+  <header>
+    <h1>Martha Fontalvo</h1>
+    <p>Transición a la ciberseguridad | Tecnología con propósito social</p>
+  </header>
 
-<nav>
-  <a href="#proyectos">Proyectos</a>
-  <a href="#habilidades">Habilidades</a>
-  <a href="#contacto">Contacto</a>
-</nav>
+  <nav>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
 
-<div class="container">
-  <img src="martha.jpg" alt="Foto de Martha Fontalvo" class="profile">
-
-  <h2 id="proyectos">💡 Proyectos destacados</h2>
-  <ul>
-    <li><strong><a href="#">EmpleoJusto-AI</a>:</strong> Plataforma inclusiva que democratiza el acceso al empleo.</li>
-    <li><strong><a href="#">EcoCifrado</a>:</strong> Educación ambiental aplicada a la ciberseguridad.</li>
-    <li><strong><a href="#">App verificador de contraseñas</a>:</strong> Herramienta para enseñar buenas prácticas de seguridad digital.</li>
-  </ul>
-
-  <h2 id="habilidades">🧠 Habilidades técnicas</h2>
-  <ul>
-    <li>VirtualBox + Ubuntu: entornos de análisis y simulación</li>
-    <li>Suricata + Nmap: reglas personalizadas y detección de tráfico</li>
-    <li>Python + Tkinter: desarrollo de apps educativas</li>
-    <li>Microsoft Clarity: análisis del comportamiento de usuario</li>
-  </ul>
-
-  <h2 id="contacto">📨 Contacto</h2>
-  <p>Email: fontalvomartha24@gmail.com<br>
-     LinkedIn: <a href="#">linkedin.com/in/martha-fontalvo</a></p>
-</div>
-
-<footer>
-  &copy; 2025 Martha Fontalvo. Inspirando con código y corazón 🧡
+Martha Fontalvo. Inspirando con código y corazón 🧡
 </footer>
 
 </body>
