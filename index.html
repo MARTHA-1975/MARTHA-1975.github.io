@@ -2,57 +2,96 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Martha Fontalvo - Hoja de vida</title>
+  <title>Martha Fontalvo - Portafolio</title>
+  <meta name="description" content="Portafolio de Martha Fontalvo - proyectos de ciberseguridad y tecnología con impacto social">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background: #f0f2f5;
+      background: #fff8f0;
+      color: #2c3e50;
+    }
+    header {
+      background: #e67e22;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background: #f39c12;
+      text-align: center;
+      padding: 0.5em;
+    }
+    nav a {
+      margin: 0 1em;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
     }
     .container {
       max-width: 900px;
       margin: 2em auto;
-      background: #fff;
       padding: 2em;
+      background: #ffffff;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 10px;
     }
-    h1, h2 {
-      color: #2c3e50;
-      margin-top: 0;
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 1em;
     }
-    ul {
-      padding-left: 1.5em;
-    }
-    .tagline {
-      font-style: italic;
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 4em;
+      padding: 1em;
+      background: #ecf0f1;
       color: #555;
-      margin-bottom: 2em;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Martha Fontalvo</h1>
-    <p class="tagline">Transición hacia la ciberseguridad | Tecnología con propósito social</p>
 
-    <h2>💡 Proyectos destacados</h2>
-    <ul>
-      <li><strong>EmpleoJusto-AI:</strong> Plataforma inclusiva que democratiza el acceso al empleo.</li>
-      <li><strong>EcoCifrado:</strong> Educación en ciberseguridad con enfoque ambiental.</li>
-      <li><strong>App verificador de contraseñas:</strong> Herramienta educativa para buenas prácticas de seguridad.</li>
-    </ul>
+<header>
+  <h1>Martha Fontalvo</h1>
+  <p>Transición a la ciberseguridad | Tecnología con propósito social</p>
+</header>
 
-    <h2>🧠 Habilidades técnicas</h2>
-    <ul>
-      <li>Configuración de entornos con VirtualBox, Ubuntu y Suricata</li>
-      <li>Análisis de tráfico con Nmap y reglas personalizadas en Suricata</li>
-      <li>Integración de Microsoft Clarity para análisis de comportamiento</li>
-    </ul>
+<nav>
+  <a href="#proyectos">Proyectos</a>
+  <a href="#habilidades">Habilidades</a>
+  <a href="#contacto">Contacto</a>
+</nav>
 
-    <h2>📨 Contacto</h2>
-    <p>Email: tu-correo@example.com<br>
-       LinkedIn: <a href="#" target="_blank">Tu perfil</a></p>
-  </div>
+<div class="container">
+  <img src="martha.jpg" alt="Foto de Martha Fontalvo" class="profile">
+
+  <h2 id="proyectos">💡 Proyectos destacados</h2>
+  <ul>
+    <li><strong><a href="#">EmpleoJusto-AI</a>:</strong> Plataforma inclusiva que democratiza el acceso al empleo.</li>
+    <li><strong><a href="#">EcoCifrado</a>:</strong> Educación ambiental aplicada a la ciberseguridad.</li>
+    <li><strong><a href="#">App verificador de contraseñas</a>:</strong> Herramienta para enseñar buenas prácticas de seguridad digital.</li>
+  </ul>
+
+  <h2 id="habilidades">🧠 Habilidades técnicas</h2>
+  <ul>
+    <li>VirtualBox + Ubuntu: entornos de análisis y simulación</li>
+    <li>Suricata + Nmap: reglas personalizadas y detección de tráfico</li>
+    <li>Python + Tkinter: desarrollo de apps educativas</li>
+    <li>Microsoft Clarity: análisis del comportamiento de usuario</li>
+  </ul>
+
+  <h2 id="contacto">📨 Contacto</h2>
+  <p>Email: fontalvomartha24@gmail.com<br>
+     LinkedIn: <a href="#">linkedin.com/in/martha-fontalvo</a></p>
+</div>
+
+<footer>
+  &copy; 2025 Martha Fontalvo. Inspirando con código y corazón 🧡
+</footer>
+
 </body>
 </html>
