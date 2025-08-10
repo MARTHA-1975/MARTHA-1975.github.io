@@ -1,58 +1,42 @@
-# 👩‍💻 Martha Lucía Fontalvo Guzmán
+# 👋 Hola, soy Martha Fontalvo Guzmán
 
-**Ciberseguridad | Tecnología educativa | Innovación con propósito**
-
-📍 Cartagena, Colombia  
-📧 fontalvomartha24@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/martha-lucia-fontalvo-guzman-a9b3bba2)  
-💻 [GitHub](https://github.com/MARTHA-1975)
+🌱 En transición activa hacia la ciberseguridad con enfoque educativo y socialmente responsable.  
+📘 Documento mi proceso técnico para empoderar a otros, compartiendo aprendizajes, errores y reflexiones.  
+🤖 Acompañada por Copilot, exploro herramientas como Suricata, Nmap, Python y Microsoft Clarity.  
+📍 Desde Cartagena, Colombia.
 
 ---
 
-## 🧭 Quién soy
+## 🚀 Proyectos destacados
 
-Soy una profesional en transición desde la coordinación logística y el sector salud hacia la ciberseguridad y la tecnología educativa. Me apasiona crear soluciones digitales accesibles que promuevan el aprendizaje, la seguridad y la sostenibilidad. Aporto una mezcla de estructura, sensibilidad humana y enfoque práctico a cada proyecto.
-
----
-
-## 🛠️ Habilidades destacadas
-
-- Análisis de riesgos y monitoreo de sistemas en ciberseguridad  
-- Desarrollo de scripts en Python y automatización básica  
-- Storytelling y generación de contenido educativo  
-- Branding con propósito social  
-- Coordinación logística y gestión documental  
-- Diseño de proyectos y prototipado accesible
+- [EcoCifrado](https://github.com/MARTHA-1975/EcoCifrado) – App educativa para enseñar buenas prácticas de ciberseguridad con enfoque ecológico 🌱🔐  
+- [Bitácora de Ciberseguridad](https://github.com/MARTHA-1975/bitacora-ciberseguridad) – Documentación reflexiva de herramientas como Suricata, Nmap y Clarity 📘  
+- [EmpleoJusto-AI](https://github.com/MARTHA-1975/EmpleoJusto-AI) – IA para oportunidades laborales inclusivas 🤖  
+- [Portafolio Web](https://github.com/MARTHA-1975/portafolio) – Diseño accesible y visual para presentar mis proyectos y bitácora técnica 💻✨
 
 ---
 
-## 🎓 Formación y Certificaciones
+## 🧰 Tecnologías que estoy explorando
 
-- **Especialización en Ciberseguridad** *(En curso)*  
-- **Técnica en Coordinación de Procesos Logísticos**  
-- **Google Cybersecurity Certificate** *(2025)*  
-- **Fundamentos de Inteligencia Artificial – Google** *(2024)*  
-- **Inglés Técnico** *(en formación)*
+- 🐍 Python · Tkinter · Suricata · Nmap · Microsoft Clarity  
+- 🌐 HTML · CSS · Git · GitHub  
+- 📊 Documentación técnica · Visualización de datos · UX accesible
 
 ---
 
-## 🌱 Proyecto destacado
+## 📓 Bitácora técnica
 
-### [EcoCifrado](https://github.com/MARTHA-1975/EcoCifrado)
-Aplicación creada en Python para enseñar buenas prácticas de seguridad digital a niños y adultos mayores. Combina tecnología educativa y conciencia ecológica.
-
----
-
-## 🔎 Buscando…
-
-Estoy abierta a oportunidades como **Analista Junior en Ciberseguridad**, **Diseñadora de contenido educativo digital** o **Desarrolladora de proyectos tecnológicos con propósito social**. Mi enfoque es 100% remoto, con interés especial en iniciativas inclusivas y educativas.
+Explora mi [portafolio web](https://tuportafolio.com) donde comparto reflexiones, aprendizajes y proyectos con impacto social.  
+Cada entrada está pensada para ser útil, clara y cercana, incluso para quienes están empezando.
 
 ---
 
-## 💌 ¡Conversemos!
+## 📬 Conectemos
 
-Si deseas colaborar, recomendarme o simplemente intercambiar ideas sobre seguridad, educación y tecnología sostenible, estaré feliz de leerte:
+- 🌐 [LinkedIn](https://www.linkedin.com/in/martha-lucia-fontalvo-guzman-a9b3bba2)
 
-📫 **fontalvomartha24@gmail.com**
+---
 
-> *“Creo en la tecnología con alma: aquella que protege, educa y transforma sin dejar a nadie atrás.”*
+> “La tecnología con propósito transforma realidades. Documentar es sembrar conocimiento.”  
+> — Martha Fontalvo Guzmán
+uella que protege, educa y transforma sin dejar a nadie atrás.”*
