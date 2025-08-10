@@ -12,7 +12,7 @@
 - [EcoCifrado](https://github.com/MARTHA-1975/EcoCifrado) – App educativa para enseñar buenas prácticas de ciberseguridad con enfoque ecológico 🌱🔐  
 - [Bitácora de Ciberseguridad](https://github.com/MARTHA-1975/bitacora-ciberseguridad) – Documentación reflexiva de herramientas como Suricata, Nmap y Clarity 📘  
 - [EmpleoJusto-AI](https://github.com/MARTHA-1975/EmpleoJusto-AI) – IA para oportunidades laborales inclusivas 🤖  
-- [Portafolio Web]([https://github.com/MARTHA-1975/portafolio](https://github.com/MARTHA-1975/Portafolio-Martha-Fontalvo)) – Diseño accesible y visual para presentar mis proyectos y bitácora técnica 💻✨
+- [Portafolio Web]([https://github.com/MARTHA-1975/portafolio](https://github.com/MARTHA-1975/Portafolio-Martha-Fontalvo) – Diseño accesible y visual para presentar mis proyectos y bitácora técnica 💻✨
 
 ---
 
